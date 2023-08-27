@@ -1,0 +1,98 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> landing page</title>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width,intial-scale=1.0"
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <style>
+            { 
+                margin:50px;
+
+            }
+            
+                .header{
+                  background-color: #333;
+                  color: aquamarine;
+                  text-align: center;
+                  padding: 1rem o;
+                }
+                .tabs {
+    display: flex;
+    justify-content: center;
+    background-color: inherit;
+    padding: 1rem 0;
+  }
+  .tab {
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    color: #333;
+    text-decoration: none;
+    background-color: inherit;
+    border: 2px solid #333;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .tab:hover {
+    background-color: #333;
+    color: #644646;
+  }
+  .content {
+    padding: 0.5%;
+    background-color: hsl(0, 38%, 38%);
+  }
+            
+        </style>
+
+         </head>
+         <body>
+          <div class="header">
+            <h1>Welcome to Online web designs</h1>
+            <p>Your One-Stop Destination for Wed Development</p>
+          </div>
+
+            <div class="tabs">
+                     <a href="#tab1" class="tab">Home</a> 
+                    <a href="#tab2" class="tab">About </a> 
+                     <a href="#tab3" class="tab">Projects</a> 
+                     <a href="#tab4" class="tab">Services</a> 
+                     <a href="#tab5" class="tab">Contact Us</a> 
+            </div>
+            </header>
+            </div>
+            <div class="content" id="tab1">
+              <h2>Home</h2>
+              <p>Explore our online products anywhere in the globe.</p>
+            </div>
+            <div class="content" id="tab2">
+              <h2>About</h2>
+              <p>Indulge in our service and you will never regret.</p>
+            </div>
+            <div class="content" id="tab3">
+              <h2>Projects</h2>
+              <p>We create and customize websites.</p>
+            </div>
+            <div class="content" id="tab4">
+              <h2>Services</h2>
+              <p>We offer a world class web designs.</p>
+            </div>
+            <div class="content" id="tab5">
+              <h2>Contact Us</h2>
+              <p>Get in touch with us today!</p>
+              <form>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required><br>
+              <br>
+
+              <br>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </body>
+          </html>
+          
+           
